@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="referrer" content="unsafe-url" />
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="stylesheet" href="/css/styles.css?ver={{versioning}}">
+
+    <title>Nunjucks boilerplate</title>
+    <meta name="description" content="Dev description" />
+    <link rel="canonical" href="http://localhost:3000" />
+    <meta name="image" content="http://localhost:3000/image-url.jpg" />
+    <meta name="author" content="John Doe">
+    <meta name="publisher" content="John Doe">
+    {% include "template/og_tags.njk" %}
+    {% include "template/twitter_tags.njk" %}
+  </head>
+
+  <body>
+    <header></header>
+    <main>
+    </main>
+    <footer></footer>
+  </body>
+
+</html>
